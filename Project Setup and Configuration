@@ -1,0 +1,11 @@
+Project Setup and Configuration
+1.Install MongoDB:
+      *Use MongoDB Atlas for cloud hosting or install locally.
+      *Set MONGO_URI in a .env file.
+2.Environment Variables: Create a .env file:
+MONGO_URI=<your_mongo_connection_string>
+JWT_SECRET=supersecretkey
+3.Start the Backend:
+node server.js
+4.Start the Frontend:
+npm start
